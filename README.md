@@ -4,10 +4,16 @@ Introduction
 The main goal of this project is to facilitate research of french gas station. 
 The web application show on a map the localisation and many information such as prices and services.
 
-This project is diveded into two parts
+This project is diveded into three parts
+  - a Python script to update the NoSQL database (MongoDB) every hours
   - a ReST api to retrive data create with Flask
   - a Web application to display gas stations on a map based on HTML / Javascript
-  
+
+Requirement
+--------------
+ 
+ MongoDB must be installed and the database "cloud" must be created.
+ 
 How to setup ?
 --------------
 
@@ -27,5 +33,5 @@ Install all the dependencies from the virtualenv
 	
 Run the server locally (localhost:5000)
 
-	(venv)$ python runserver.py
+	(venv)$ python rest_api/runserver.py
 
