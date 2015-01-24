@@ -19,7 +19,7 @@ How to setup ?
 
 Clone the repository 
 
-	$ git clone https://github.com/E-LEFORT/project_cloud.git
+	$ git clone https://github.com/e-lefort/project_cloud.git
 
 Use virtualenv to execute a clean install from the repository
 
