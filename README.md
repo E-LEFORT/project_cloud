@@ -6,7 +6,7 @@ The web application show on a map the localisation and many information such as 
 
 This project is diveded into three parts
   - a Python script to update the NoSQL database (MongoDB) every hours
-  - a ReST api to retrive data create with Flask
+  - a ReST api to retrive data using Flask
   - a Web application to display gas stations on a map based on HTML / Javascript
 
 Requirement
